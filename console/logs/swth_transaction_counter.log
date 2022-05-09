@@ -1,0 +1,24 @@
+Error: 502: HTTP/1.1 502 Bad Gateway
+Retry request after 5sec, attempts left 4
+Error: 502: HTTP/1.1 502 Bad Gateway
+Retry request after 5sec, attempts left 3
+Error: 502: HTTP/1.1 502 Bad Gateway
+Retry request after 5sec, attempts left 2
+Error: 502: HTTP/1.1 502 Bad Gateway
+Retry request after 5sec, attempts left 1
+Error: 502: HTTP/1.1 502 Bad Gateway
+Retry request after 5sec, attempts left 0
+Error: 502: HTTP/1.1 502 Bad Gateway
+
+-Last id is: 556986784 
+-Transactions not found after
+string(6) "Error:"
+string(23) "Transactions load error"
+array(3) {
+  ["file"]=>
+  string(24) "swth_transaction_counter"
+  ["line"]=>
+  int(68)
+  ["trace"]=>
+  string(9) "#0 {main}"
+}

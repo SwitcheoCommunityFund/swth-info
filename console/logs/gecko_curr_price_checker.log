@@ -1,0 +1,54 @@
+
+c:celsius-degree-token - Error: 28: Timeout was reached: Operation timed out after 30001 milliseconds with 0 bytes received
+Retry request after 10sec, attempts left 4
+Error: 28: Timeout was reached: Operation timed out after 30001 milliseconds with 0 bytes received
+Retry request after 10sec, attempts left 3
+.............................................................
+c:flamingo-finance - .............................................................
+c:yam-2 - .............................................................
+c:bitcoinbrand - .............................................................
+c:binance-usd - .............................................................
+c:neo - .............................................................
+c:ethereum - .............................................................
+c:asura - Error: 404: HTTP/1.1 404 Not Found
+Retry request after 10sec, attempts left 4
+Error: 28: Timeout was reached: Operation timed out after 30002 milliseconds with 0 bytes received
+Retry request after 10sec, attempts left 3
+Error: 404: HTTP/1.1 404 Not Found
+Retry request after 10sec, attempts left 2
+Error: 404: HTTP/1.1 404 Not Found
+Retry request after 10sec, attempts left 1
+Error: 404: HTTP/1.1 404 Not Found
+Retry request after 10sec, attempts left 0
+Error: 28: Timeout was reached: Operation timed out after 30001 milliseconds with 0 bytes received
+PHP Notice:  Trying to get property 'market_data' of non-object in /var/www/console/gecko_curr_price_checker.php on line 34
+PHP Notice:  Trying to get property 'current_price' of non-object in /var/www/console/gecko_curr_price_checker.php on line 34
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/console/gecko_curr_price_checker.php on line 34
+
+c:wrapped-bitcoin - Error: 28: Timeout was reached: Operation timed out after 30001 milliseconds with 0 bytes received
+Retry request after 10sec, attempts left 4
+Error: 28: Timeout was reached: Operation timed out after 30002 milliseconds with 0 bytes received
+Retry request after 10sec, attempts left 3
+.............................................................
+c:usd-coin - .............................................................
+c:deepbrain-chain - Error: 28: Timeout was reached: Operation timed out after 30001 milliseconds with 0 bytes received
+Retry request after 10sec, attempts left 4
+Error: 28: Timeout was reached: Operation timed out after 30001 milliseconds with 0 bytes received
+Retry request after 10sec, attempts left 3
+.............................................................
+c:neon-exchange - Error: 28: Timeout was reached: Operation timed out after 30001 milliseconds with 0 bytes received
+Retry request after 10sec, attempts left 4
+.............................................................
+c: - Error: 28: Timeout was reached: Operation timed out after 30001 milliseconds with 0 bytes received
+Retry request after 10sec, attempts left 4
+Error: 28: Timeout was reached: Operation timed out after 30001 milliseconds with 0 bytes received
+Retry request after 10sec, attempts left 3
+PHP Notice:  Trying to get property 'market_data' of non-object in /var/www/console/gecko_curr_price_checker.php on line 34
+PHP Notice:  Trying to get property 'current_price' of non-object in /var/www/console/gecko_curr_price_checker.php on line 34
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/console/gecko_curr_price_checker.php on line 34
+
+c:switcheo - Error: 28: Timeout was reached: Operation timed out after 30001 milliseconds with 0 bytes received
+Retry request after 10sec, attempts left 4
+Error: 28: Timeout was reached: Operation timed out after 30002 milliseconds with 0 bytes received
+Retry request after 10sec, attempts left 3
+.............................................................

@@ -1,0 +1,230 @@
+
+
+/* ============ PULSE ANIMATION ============ */
+
+@keyframes heartBeat {
+    0% {
+        transform: scale(none);
+        -webkit-transform: scale(none);
+    }
+
+    20% {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+    }
+
+    30% {
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+    }
+
+    45% {
+        transform: scale(1.25);
+        -webkit-transform: scale(1.25);
+    }
+
+    50% {
+        transform: scale(none);
+        -webkit-transform: scale(none);
+    }
+
+    100% {
+        transform: scale(none);
+        -webkit-transform: scale(none);
+    }
+}
+
+@-webkit-keyframes heartBeat {
+    0% {
+        transform: scale(none);
+        -webkit-transform: scale(none);
+    }
+
+    20% {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+    }
+
+    30% {
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+    }
+
+    45% {
+        transform: scale(1.25);
+        -webkit-transform: scale(1.25);
+    }
+
+    50% {
+        transform: scale(none);
+        -webkit-transform: scale(none);
+    }
+
+    100% {
+        transform: scale(none);
+        -webkit-transform: scale(none);
+    }
+}
+
+
+.heartBeat {
+    animation-name: heartBeat;
+    -webkit-animation-name: heartBeat;
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-iteration-count: 5;
+    -webkit-animation-iteration-count: 5;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}
+
+span.heartBeat {
+    display: inline-block;
+}
+
+/* ========================= THEME SWITCHER ========================= */
+
+.theme_switch_backgr{
+    background: transparent;
+    border-radius: 50px;
+    width: fit-content;
+    max-width: 25px;
+    cursor: pointer;
+}
+.theme_switch{
+    width: 19px;
+    height: 19px;
+    background-image: url(/img/moon.png);
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: 3px 3px;
+}
+.theme_switch.dark{
+    width: 19px;
+    height: 19px;
+    background-image: url(/img/sun.png);
+    background-size: 17px;
+    background-position: 1px 1px;
+}
+
+/* ======================== LAYOUT ELEMENTS ======================== */
+
+
+.navbar-header {
+    display: contents;
+}
+
+.navbar {
+    width: 200px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    max-height: 100vh;
+    position: fixed;
+    left:0;
+    top:0;
+}
+
+
+
+
+    .navbar {
+        width:157px;
+        height: 100%;
+    }
+    .navbar>.container{
+        padding-left: 0px;
+        max-width: 200px;
+    }
+    .main-content {
+        margin-left: 200px;
+    }
+    .navbar-collapse {
+        padding-left: 0px;
+    }
+    .navbar-brand{
+        margin-left: 0px!important;
+    }
+    .navbar-inverse {
+        border-color: transparent!important;
+        border-radius: 0px;
+    }
+    .wrap > .container {
+        padding: 15px 15px 20px;
+    }
+    .navbar-left{
+        height: calc(100vh - 120px);
+        overflow-y: overlay;
+        overflow-x: hidden;
+    }
+    .navbar-left>li>a:hover,.navbar-left>li>a:focus{
+        background: none;
+    }
+    .main-footer {
+        position:relative;
+        height: 60px;
+        max-height: 60px;
+    }
+
+    /* Scroll 2 */
+    .navbar-left::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
+    .navbar-left::-webkit-scrollbar-track {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+    }
+    .navbar-left::-webkit-scrollbar-thumb {
+        background-color: #11171a;
+        border-radius: 10px;
+    }
+
+@media (max-width: 1200px){
+    body{
+        font-size: 12px!important;
+    }
+    .main-footer {
+        position:relative;
+        height: 70px;
+        max-height: 70px;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        font-size: 12px!important;
+    }
+    .navbar {
+        width:100%;
+        height: min-content;
+        position: fixed;
+        z-index: 1000;
+    }
+    .main-content {
+        margin-left: 0px;
+    }
+    .navbar>.container {
+        padding-left: 0px;
+        max-width: 100%;
+    }
+    .wrap > .container {
+        padding: 75px 15px 20px;
+    }
+    .navbar-left{
+        padding-left: 20px;
+    }
+    .main-footer {
+        position:relative;
+        height: 92px;
+        max-height: 92px;
+    }
+}
+
+/* main interface elements */
+
+
+.panel {
+    box-shadow: 0px 3px 6px -3px rgba(0,0,0,0.6);
+    padding: 0px 15px 15px 15px;
+}

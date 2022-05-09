@@ -1,0 +1,102 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+    background-color: #1a212f!important;
+    color: #adadad!important;
+    font-size: 14px!important;
+}
+
+.panel{
+    background: #212d44;
+}
+
+.navbar {
+    background: #202e44;
+    box-shadow: 0px 0px 6px #000;
+}
+.navbar .nav>.dropdown.open>a {
+    background: #141e2b!important;
+}
+.nav .dropdown-menu{
+    background: #4b5f7d!important;
+}
+.nav .dropdown-menu>li>a{
+    color:#bfbfbf!important;
+}
+.nav .dropdown-menu>li>a:hover{
+    background: #5e769a!important;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #202f43;
+}
+
+.footer {
+    background: #0f1721;
+    border-top: 1px solid #000;
+}
+
+.breadcrumb {
+    background-color: #394861;
+}
+
+a {
+    color: #3a86d6;
+    text-decoration: none!important;
+}
+
+a:hover, a:focus {
+    color: #99cbff;
+}
+
+.form-control, input, textarea {
+    background: #2e3c50;
+    height: 40px;
+    color: #fff;
+    border: 1px solid #161d27;
+}
+
+.table {
+    border: none!important;
+}
+
+td,th{
+    border: none!important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #0a070738;
+}
+
+
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    background-color: #566d90!important;
+    border:none!important;
+}
+.pagination>li>a, .pagination>li>span {
+    background-color: #394961!important;
+    border:none!important;
+}
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus
+{
+    background-color: #7ea7e0!important;
+    border:none!important;
+}
+
+hr{
+    border-top: 1px solid #181919;
+}
+
+.about_text {
+    background: #142c3e!important;
+}
+.about_text::before {
+    border: 19px solid #142c3e!important;
+    border-bottom: transparent!important;
+    border-left: 11px transparent solid!important;
+    border-right: transparent!important;
+}
+
+.market_name {
+    color: #c5c5c5!important;
+}

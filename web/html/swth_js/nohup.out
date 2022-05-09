@@ -1,0 +1,47 @@
+Server running at http://127.0.0.1:3000/
+internal/modules/cjs/loader.js:968
+  throw err;
+  ^
+
+Error: Cannot find module 'tradeHub-api-js'
+Require stack:
+- /var/www/html/swth_js/faucet.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/var/www/html/swth_js/faucet.js:1:48)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/var/www/html/swth_js/faucet.js' ]
+}
+Server running at http://127.0.0.1:3000/
+/var/www/html/swth_js/faucet.js:15
+        const rest = new RestClient({ wallet, network });
+                                      ^
+
+ReferenceError: wallet is not defined
+    at ServerResponse.<anonymous> (/var/www/html/swth_js/faucet.js:15:39)
+    at Object.onceWrapper (events.js:421:28)
+    at ServerResponse.emit (events.js:327:22)
+    at onFinish (_http_outgoing.js:723:10)
+    at afterWrite (_stream_writable.js:490:5)
+    at afterWriteTick (_stream_writable.js:477:10)
+    at processTicksAndRejections (internal/process/task_queues.js:83:21)
+Server running at http://127.0.0.1:3000/
+/var/www/html/swth_js/faucet.js:15
+        const rest = new RestClient({ wallet, network });
+                                      ^
+
+ReferenceError: wallet is not defined
+    at ServerResponse.<anonymous> (/var/www/html/swth_js/faucet.js:15:39)
+    at Object.onceWrapper (events.js:421:28)
+    at ServerResponse.emit (events.js:327:22)
+    at onFinish (_http_outgoing.js:723:10)
+    at afterWrite (_stream_writable.js:490:5)
+    at afterWriteTick (_stream_writable.js:477:10)
+    at processTicksAndRejections (internal/process/task_queues.js:83:21)

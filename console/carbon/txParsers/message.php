@@ -1,0 +1,5 @@
+<?php
+
+function message($value){
+
+}

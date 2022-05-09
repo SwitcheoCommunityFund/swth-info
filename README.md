@@ -3,7 +3,7 @@
 project files description
 
 ## /database:
-this dir contents archived dumps of databases:
+this dir contents archived dumps of PostgreSQL databases:
 #### switcheo.gz 
 shitcheo scan data and system tables
 this database includes loaded parsed data of carbon network named as "carbon_txs" (loader: /console/carbon/carbon_parse_block.php )
